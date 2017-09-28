@@ -1,0 +1,33 @@
+{
+    "name": "wxss-transformer",
+    "version": "0.1.0",
+    "description": "将微信小程序的wxss代码转换成css",
+    "main": "dist/index.js",
+    "scripts": {
+        "build": "rollup -c rollup.config.js",
+        "test": "mocha test/index.js"
+    },
+    "author": {
+        "name": "Mingyu Yuan",
+        "email": "mingyuhisoft@163.com",
+        "url": "https://github.com/imingyu"
+    },
+    "license": "BSD-3-Clause",
+    "dependencies": {
+    },
+    "devDependencies": {
+        "babel-plugin-external-helpers": "^6.22.0",
+        "babel-preset-latest": "^6.24.1",
+        "chai": "^4.0.2",
+        "rollup-plugin-babel": "^2.7.1",
+        "rollup-plugin-node-resolve": "^3.0.0"
+    },
+    "bugs": {
+        "url": "https://github.com/imingyu/wxss-transformer/issues"
+    },
+    "homepage": "https://github.com/imingyu/wxss-transformer",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/imingyu/wxss-transformer.git"
+    }
+}
